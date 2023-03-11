@@ -1,3 +1,20 @@
 h1 {
-  color: rgb(50, 9, 91);
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+ul {
+  margin-bottom: 30px;
+}
+li {
+  list-style: none;
+}
+.weather-app-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.weather-app {
+  margin-top: 50px;
+  padding: 20px auto;
+  border: 1px solid rgb(195, 189, 195);
+  border-radius: 5px;
 }
