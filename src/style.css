@@ -18,3 +18,18 @@ li {
   border: 1px solid rgb(195, 189, 195);
   border-radius: 5px;
 }
+
+.weather-temperature img {
+  margin-right: 0;
+  margin-left: 20px;
+  width: 80px;
+  margin-bottom: 40px;
+}
+.tempo {
+  font-size: 64px;
+  font-weight: 400;
+}
+.weather-temperature .units {
+  position: relative;
+  bottom: 35px;
+}
