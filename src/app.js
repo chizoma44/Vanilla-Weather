@@ -10,8 +10,9 @@ function displayWeather(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
 }
-let apiKey = "fbac5fb54ffdb0d3df85f04d86bdf528";
+let query = "lagos";
+let apiKey = "bc73f3a1b088bb524455cc62ao20tb24";
 let apiUrl =
-  "https://api.openweathermap.org/data/2.5/weather?q=lagos&appid=fbac5fb54ffdb0d3df85f04d86bdf528&units=metric";
+  "https://api.shecodes.io/weather/v1/current?query=${query}&key=${apiKey}";
 
-axios.get(apiUrl).then(displayWeather);
+https: axios.get(apiUrl).then(displayWeather);
