@@ -10,9 +10,12 @@ function displayWeather(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
 }
-let query = "lagos";
-let apiKey = "bc73f3a1b088bb524455cc62ao20tb24";
+
+let apiKey = "b400ae3b711a616262d18b0ca2cbe78f";
 let apiUrl =
-  "https://api.shecodes.io/weather/v1/current?query=${query}&key=${apiKey}";
+  "https://api.openweathermap.org/data/2.5/weather?q=London&appid=b400ae3b711a616262d18b0ca2cbe78f&units=metric";
 
 https: axios.get(apiUrl).then(displayWeather);
+
+//"b400ae3b711a616262d18b0ca2cbe78f";
+//"https://api.openweathermap.org/data/2.5/weather?q=London&appid=b400ae3b711a616262d18b0ca2cbe78f&units=metric";

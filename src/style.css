@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 h1 {
   margin-left: 30px;
   margin-bottom: 0;
@@ -14,6 +17,7 @@ li {
   margin: 0 auto;
 }
 .weather-app {
+  background-color: rgb(240, 146, 163);
   margin-top: 50px;
   padding: 20px auto;
   border: 1px solid rgb(195, 189, 195);
@@ -33,4 +37,7 @@ li {
 .weather-temperature .units {
   position: relative;
   bottom: 35px;
+}
+.developer {
+  color: white;
 }
