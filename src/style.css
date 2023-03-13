@@ -1,6 +1,7 @@
 body {
   background-color: black;
 }
+
 h1 {
   margin-left: 30px;
   margin-bottom: 0;
@@ -31,6 +32,9 @@ li::first-letter {
   margin-left: 20px;
   width: 80px;
   margin-bottom: 40px;
+}
+.form-control {
+  background-color: black;
 }
 .tempo {
   font-size: 64px;
