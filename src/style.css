@@ -18,6 +18,7 @@ li::first-letter {
 .weather-app-wrapper {
   max-width: 500px;
   margin: 0 auto;
+  bottom: 100%;
 }
 .weather-app {
   background-color: rgb(240, 146, 163);
@@ -59,4 +60,11 @@ li::first-letter {
 }
 .weather-temperature .fahrenheit {
   text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 20px;
 }
