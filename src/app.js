@@ -51,6 +51,7 @@ function displayForecast(response) {
                     }.png"  
                     alt=""
                     width="42"
+                    class="forecast-day-condition-icon"
                   />
                   <br />
                   <div class="weather-forecast-temperature">
