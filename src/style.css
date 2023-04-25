@@ -74,11 +74,10 @@ li::first-letter {
 .weather-forecast-temperature-min {
   opacity: 0.7;
 }
-@media (max-width: 300px) {
+@media (max-width: 900px) {
   body {
     display: block;
-    max-width: fit-content;
-    max-height: fit-content;
+    width: auto;
     font-size: x-small;
   }
   h1 {
@@ -89,29 +88,26 @@ li::first-letter {
   }
   .weather-forecast {
     display: block;
-    max-width: fit-content;
-    max-height: fit-content;
+    width: auto;
     font-size: x-small;
   }
   .weather-forecast-date {
     font-size: x-small;
   }
   .tempo {
-    font-size: 22px;
+    font-size: 10px;
   }
   .weather-icon {
     padding: 0;
-    max-width: 40px;
+    width: auto;
   }
   .form-control {
     display: inline;
-    max-width: 200px;
-    max-height: 20px;
+    width: auto;
   }
   .btn {
     display: inline;
-    max-width: 65px;
-    max-height: 25px;
+    width: auto;
     padding-top: 0;
   }
 }
