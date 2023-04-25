@@ -110,4 +110,8 @@ li::first-letter {
     width: auto;
     padding-top: 0;
   }
+  .fahrenheit {
+    padding: 0;
+    margin: 0;
+  }
 }
