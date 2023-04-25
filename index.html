@@ -23,71 +23,69 @@
   </head>
   <body>
     <div class="container">
-      <div class="position-relative">
-        <div class="weather-app-wrapper">
-          <div class="weather-app">
-            <form id="search-form" class="mb-4">
-              <div class="row">
-                <div class="col-md-8">
-                  <input
-                    type="search"
-                    placeholder="Type a City..."
-                    class="form-control"
-                    id="city-input"
-                    autocomplete="off"
-                  />
-                </div>
-                <div class="col-4">
-                  <input
-                    type="submit"
-                    value="search"
-                    class="btn btn-primary"
-                    w-100
-                  />
-                </div>
-              </div>
-            </form>
-            <h1 id="city"></h1>
-            <ul>
-              <li>Last updated <span id="date"></span></li>
-              <li id="description"></li>
-            </ul>
-
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-4">
             <div class="row">
-              <div class="d-flex weather-temperature">
-                <div class="col-md-7">
-                  <img src="" alt="Clear" id="icon" class="weather-icon" />
-                  <span>
-                    <strong class="tempo" id="temperature"></strong
-                    ><span class="units"
-                      ><a href="#" id="celsius-link" class="active">°C </a>|
-                      <a href="#" id="fahrenheit-link" class="fahrenheit"
-                        >°F</a
-                      ></span
-                    >
-                  </span>
-                </div>
-                <div class="col-md-6">
-                  <ul>
-                    <li>Humidity: <span id="humidity"></span> %</li>
-                    <li>Wind: <span id="wind"></span> km/h</li>
-                  </ul>
-                </div>
+              <div class="col-sm-8">
+                <input
+                  type="search"
+                  placeholder="Type a City..."
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-sm-4">
+                <input
+                  type="submit"
+                  value="search"
+                  class="btn btn-primary"
+                  w-100
+                />
               </div>
             </div>
-            <div class="weather-forecast" id="forecast"></div>
+          </form>
+          <h1 id="city"></h1>
+          <ul>
+            <li>Last updated <span id="date"></span></li>
+            <li id="description"></li>
+          </ul>
+
+          <div class="row">
+            <div class="d-flex weather-temperature">
+              <div class="col-sm-7">
+                <img src="" alt="Clear" id="icon" class="weather-icon" />
+                <span>
+                  <strong class="tempo" id="temperature"></strong
+                  ><span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C </a>|
+                    <a href="#" id="fahrenheit-link" class="fahrenheit"
+                      >°F</a
+                    ></span
+                  >
+                </span>
+              </div>
+              <div class="col-sm-6">
+                <ul>
+                  <li>Humidity: <span id="humidity"></span> %</li>
+                  <li>Wind: <span id="wind"></span> km/h</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <small>
-            <a
-              href="https://github.com/chizoma44/Vanilla-Weather"
-              target="_blank"
-            >
-              Open-source code
-            </a>
-            <span class="developer"> by Chizo Korie, and is </span>
-            <a href="" target="_blank">hosted on Netlify.</a>
-          </small>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
+        <small>
+          <a
+            href="https://github.com/chizoma44/Vanilla-Weather"
+            target="_blank"
+          >
+            Open-source code
+          </a>
+          <span class="developer"> by Chizo Korie, and is </span>
+          <a href="" target="_blank">hosted on Netlify.</a>
+        </small>
       </div>
     </div>
     <script src="src/app.js"></script>
