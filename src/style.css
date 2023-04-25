@@ -21,7 +21,7 @@ li::first-letter {
   margin: 0 auto;
 }
 .weather-app {
-  background: rgb(146, 4, 146);
+  background: #bf646d;
   margin-top: 50px;
   padding: 20px auto;
   border: 1px solid rgb(179, 94, 179);
@@ -37,7 +37,7 @@ li::first-letter {
   background-color: black;
 }
 .tempo {
-  font-size: 64px;
+  font-size: 44px;
   font-weight: 400;
 }
 .weather-temperature .units {
@@ -75,13 +75,16 @@ li::first-letter {
   opacity: 0.7;
 }
 @media (max-width: 300px) {
-  body {
-    display: block;
-    width: auto;
-    font-size: x-small;
-  }
   h1 {
     font-size: 14px;
+  }
+  .weather-app {
+    display: block;
+    width: fit-content;
+    font-size: x-small;
+  }
+  .form-control {
+    width: auto;
   }
   .forecast-day-condition-icon {
     display: none;
@@ -93,9 +96,6 @@ li::first-letter {
   }
   .weather-forecast-date {
     font-size: x-small;
-  }
-  .tempo {
-    font-size: 8px;
   }
   .weather-icon {
     padding: 0;
@@ -110,7 +110,7 @@ li::first-letter {
     width: auto;
     padding-top: 0;
   }
-  .weather-temperature .units {
+  .units {
     padding: 0;
     margin: 0;
     font-size: xx-small;
