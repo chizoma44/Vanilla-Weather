@@ -110,7 +110,7 @@ li::first-letter {
     width: auto;
     padding-top: 0;
   }
-  .fahrenheit {
+  .weather-temperature .units {
     padding: 0;
     margin: 0;
   }
