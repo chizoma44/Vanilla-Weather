@@ -18,6 +18,7 @@ li::first-letter {
 .weather-app-wrapper {
   max-width: 500px;
   margin: 0 auto;
+  height: 100vh;
 }
 .weather-app {
   background: #bf646d;
